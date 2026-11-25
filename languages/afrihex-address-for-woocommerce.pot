@@ -1,0 +1,473 @@
+# Copyright (C) 2026 AfriHex
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AfriHex Address for WooCommerce 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/afrihex-address-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-22T17:14:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: afrihex-address-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: afrihex-address-for-woocommerce.php
+msgid "AfriHex Address for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: afrihex-address-for-woocommerce.php
+msgid "Customers enter a GhanaPostGPS code, a place or landmark directions at checkout. The address is checked with AfriHex and saved on the order with its GPS code, coordinates and rider directions."
+msgstr ""
+
+#. Author of the plugin
+#: afrihex-address-for-woocommerce.php
+msgid "AfriHex"
+msgstr ""
+
+#. Author URI of the plugin
+#: afrihex-address-for-woocommerce.php
+msgid "https://afrihex.com"
+msgstr ""
+
+#: afrihex-address-for-woocommerce.php:56
+msgid "AfriHex Address needs WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:65
+msgid "Delivery location (AfriHex)"
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:84
+msgid "Checking…"
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:85
+msgid "Request failed."
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:103
+msgid "No delivery location was recorded for this order."
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:118
+#: includes/class-afrihex-order-display.php:145
+msgid "Open in Google Maps"
+msgstr ""
+
+#. translators: %s: error message
+#: includes/class-afrihex-admin-order.php:129
+#, php-format
+msgid "Last error: %s"
+msgstr ""
+
+#. translators: %s: date and time
+#: includes/class-afrihex-admin-order.php:132
+#, php-format
+msgid "Checked %s"
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:145
+msgid "Corrected GhanaPostGPS code (optional)"
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:149
+msgid "Retry check"
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:149
+msgid "Check again"
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:165
+msgid "test"
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:185
+#: includes/class-afrihex-settings.php:403
+msgid "Not allowed."
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:189
+msgid "Order not found."
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:193
+msgid "That is not a GhanaPostGPS code (e.g. GA-183-8164)."
+msgstr ""
+
+#. translators: 1: user display name, 2: outcome note
+#: includes/class-afrihex-admin-order.php:198
+#, php-format
+msgid "%1$s re-checked the delivery location. %2$s"
+msgstr ""
+
+#: includes/class-afrihex-admin-order.php:216
+#: includes/class-afrihex-admin-order.php:220
+msgid "Location check"
+msgstr ""
+
+#: includes/class-afrihex-api.php:86
+msgid "No AfriHex secret key is set."
+msgstr ""
+
+#: includes/class-afrihex-api.php:112
+msgid "AfriHex returned an unreadable response."
+msgstr ""
+
+#: includes/class-afrihex-checkout-blocks.php:94
+msgid "The delivery location the customer chose, as JSON."
+msgstr ""
+
+#: includes/class-afrihex-checkout-classic.php:98
+msgid "Enter your delivery address in the address fields above."
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:46
+msgid "Not checked yet"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:49
+msgid "No location given"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:53
+msgid "Verified"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:55
+msgid "Found, confirm with customer"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:57
+msgid "Could not locate"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:59
+msgid "Checked"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:72
+msgid "GhanaPostGPS"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:76
+msgid "Place"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:80
+msgid "Customer wrote"
+msgstr ""
+
+#. translators: %d: metres
+#: includes/class-afrihex-order-display.php:85
+#, php-format
+msgid "%d m"
+msgstr ""
+
+#. translators: %d: metres
+#: includes/class-afrihex-order-display.php:86
+msgid "Landmark"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:89
+msgid "Entrance"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:92
+#: includes/class-afrihex-widget.php:70
+msgid "Directions"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:95
+msgid "Coordinates"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:95
+msgid "(pin placed by customer)"
+msgstr ""
+
+#. translators: %d: confidence 0-100
+#: includes/class-afrihex-order-display.php:101
+#, php-format
+msgid "confidence %d/100"
+msgstr ""
+
+#. translators: %s: e.g. premise, landmark, street
+#: includes/class-afrihex-order-display.php:105
+#, php-format
+msgid "located to %s"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:108
+msgid "TEST MODE"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:110
+msgid "AfriHex check"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:130
+#: includes/class-afrihex-order-display.php:139
+#: includes/class-afrihex-order-display.php:160
+#: includes/class-afrihex-settings.php:325
+#: includes/class-afrihex-widget.php:60
+#: assets/js/checkout-blocks-editor.js:27
+msgid "Delivery location"
+msgstr ""
+
+#: includes/class-afrihex-order-display.php:135
+#: includes/class-afrihex-order-display.php:145
+#: includes/class-afrihex-settings.php:333
+msgid "Map"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:139
+#: includes/class-afrihex-settings.php:140
+#: includes/class-afrihex-settings.php:270
+msgid "AfriHex Address"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:155
+msgid "Settings"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:172
+msgid "AfriHex Address is not showing at checkout yet: add your publishable key."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:174
+msgid "Open settings"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:207
+msgid "The publishable key should start with afx_pub_. Secret keys must never go in the publishable key field."
+msgstr ""
+
+#. translators: %s: expected key prefix, e.g. afx_live_
+#: includes/class-afrihex-settings.php:225
+#, php-format
+msgid "That key is the wrong kind for this field: it should start with %s."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:271
+msgid "Customers enter a GhanaPostGPS code, a place, or directions by landmark at checkout. Each order is checked with AfriHex and saved with its GPS code, coordinates and rider directions."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:275
+msgid "API keys"
+msgstr ""
+
+#. translators: %s: link to the AfriHex dashboard
+#: includes/class-afrihex-settings.php:280
+#, php-format
+msgid "Get both keys from your %s."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:281
+msgid "AfriHex dashboard"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:287
+msgid "Publishable key"
+msgstr ""
+
+#. translators: %s: this shop's web origin, e.g. https://shop.example.com
+#: includes/class-afrihex-settings.php:294
+#, php-format
+msgid "Used in the checkout page for suggestions. In the dashboard, add %s to this key's websites or lookups will be refused."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:302
+msgid "Secret key (live)"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:303
+msgid "Secret key (test)"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:306
+msgid "Test mode"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:308
+msgid "Check orders with the test key"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:309
+msgid "Test calls use their own daily allowance and don't count against your plan. Orders are marked \"test\"."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:313
+msgid "Connection"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:315
+msgid "Test secret key"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:317
+msgid "Checks a sample address with the key for the current mode. Save first."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:322
+msgid "Checkout"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:327
+msgid "Customers must enter a delivery location"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:328
+msgid "Ask the customer to correct an address AfriHex cannot locate"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:329
+msgid "Checkout is never blocked because AfriHex is unreachable: the order is saved as \"unverified\" and checked again later."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:335
+msgid "Show a small map so customers can drag the pin to their gate"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:339
+msgid "Map tiles URL"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:342
+msgid "A raster tile template with {z}/{x}/{y}. The default OpenStreetMap server is for light use only; busy shops should use their own tile provider."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:347
+msgid "Advanced"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:350
+msgid "API base URL"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:353
+msgid "Leave as https://api.afrihex.com unless AfriHex support tells you otherwise."
+msgstr ""
+
+#. translators: %s: PHP constant name
+#: includes/class-afrihex-settings.php:382
+#, php-format
+msgid "Set in wp-config.php (%s)."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:388
+msgid "Remove"
+msgstr ""
+
+#: includes/class-afrihex-settings.php:390
+msgid "Stays on your server; it is never sent to the browser. Leave blank to keep the saved key."
+msgstr ""
+
+#: includes/class-afrihex-settings.php:407
+msgid "No secret key saved for the current mode."
+msgstr ""
+
+#. translators: %s: error message from the API
+#: includes/class-afrihex-settings.php:412
+#, php-format
+msgid "Failed: %s"
+msgstr ""
+
+#. translators: %s: live or test
+#: includes/class-afrihex-settings.php:417
+#, php-format
+msgid "Connected (%s mode)."
+msgstr ""
+
+#: includes/class-afrihex-verifier.php:122
+msgid "Please enter your delivery location: a GhanaPostGPS code, a place, or directions from a landmark."
+msgstr ""
+
+#: includes/class-afrihex-verifier.php:125
+msgid "We could not find that delivery location. Please check the GhanaPostGPS code, or describe it from a nearby landmark."
+msgstr ""
+
+#. translators: 1: verdict (accept/confirm/fix), 2: GhanaPostGPS code or "-"
+#: includes/class-afrihex-verifier.php:265
+#, php-format
+msgid "AfriHex checked the delivery location: %1$s (%2$s)."
+msgstr ""
+
+#: includes/class-afrihex-verifier.php:268
+msgid "No delivery location was given to check."
+msgstr ""
+
+#. translators: %s: error from the API
+#: includes/class-afrihex-verifier.php:271
+#, php-format
+msgid "AfriHex could not check the delivery location yet (%s). Saved what the customer entered; it will be retried."
+msgstr ""
+
+#: includes/class-afrihex-widget.php:61
+msgid "required"
+msgstr ""
+
+#: includes/class-afrihex-widget.php:62
+msgid "GhanaPostGPS code, place, or directions"
+msgstr ""
+
+#: includes/class-afrihex-widget.php:63
+msgid "E.g. GA-183-8164, \"Accra Mall\", or \"opposite Goil, Madina Zongo Junction\"."
+msgstr ""
+
+#: includes/class-afrihex-widget.php:64
+msgid "Use my current location"
+msgstr ""
+
+#: includes/class-afrihex-widget.php:65
+msgid "Finding you…"
+msgstr ""
+
+#: includes/class-afrihex-widget.php:66
+msgid "Current location"
+msgstr ""
+
+#: includes/class-afrihex-widget.php:67
+msgid "No matches. Try a landmark near you, or a GhanaPostGPS code."
+msgstr ""
+
+#: includes/class-afrihex-widget.php:68
+msgid "Location is off. Allow it in your browser, or type your address."
+msgstr ""
+
+#: includes/class-afrihex-widget.php:69
+msgid "Suggestions are not available right now. Type your address or directions; we will check it after you order."
+msgstr ""
+
+#: includes/class-afrihex-widget.php:71
+msgid "Not quite right? Drag the pin, or tap the map, to mark your gate."
+msgstr ""
+
+#: includes/class-afrihex-widget.php:72
+msgid "Pin moved. We will deliver to the new spot."
+msgstr ""
+
+#: includes/class-afrihex-widget.php:73
+msgid "Map of your delivery location"
+msgstr ""
+
+#: includes/class-afrihex-widget.php:74
+msgid "Please enter your delivery location."
+msgstr ""
+
+#: assets/js/checkout-blocks-editor.js:14
+msgid "AfriHex delivery location"
+msgstr ""
+
+#: assets/js/checkout-blocks-editor.js:15
+msgid "GhanaPostGPS code, place or landmark directions, checked with AfriHex."
+msgstr ""
+
+#: assets/js/checkout-blocks-editor.js:28
+msgid "Customers enter a GhanaPostGPS code, a place, or directions from a landmark. Settings: WooCommerce → AfriHex Address."
+msgstr ""

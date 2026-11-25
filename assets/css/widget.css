@@ -1,0 +1,59 @@
+/* AfriHex delivery-location field. Inherits the theme's fonts and input styles. */
+.afx-wc { margin: 1em 0 1.5em; position: relative; }
+.afx-wc-label { display: block; margin-bottom: .35em; font-weight: 600; }
+.afx-wc-field { position: relative; }
+.afx-wc-input { width: 100%; box-sizing: border-box; }
+.afx-wc.is-busy .afx-wc-input {
+	background-image: linear-gradient(90deg, transparent, rgba(0,0,0,.06), transparent);
+	background-size: 200% 100%;
+	animation: afx-wc-busy 1s linear infinite;
+}
+@keyframes afx-wc-busy { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) { .afx-wc.is-busy .afx-wc-input { animation: none; } }
+.afx-wc-list {
+	position: absolute; z-index: 1000; left: 0; right: 0; top: 100%;
+	margin: 2px 0 0; padding: 4px 0; list-style: none;
+	background: #fff; color: #1e1e1e; border: 1px solid #c3c4c7; border-radius: 4px;
+	box-shadow: 0 6px 18px rgba(0,0,0,.12); max-height: 320px; overflow-y: auto;
+}
+.afx-wc-list[hidden] { display: none; }
+.afx-wc-option { padding: 8px 12px; cursor: pointer; line-height: 1.35; }
+.afx-wc-option.is-active, .afx-wc-option:hover { background: #f0f6fc; }
+.afx-wc-opt-title { display: block; font-weight: 600; }
+.afx-wc-opt-sub { display: block; font-size: .85em; opacity: .75; }
+.afx-wc-empty { padding: 8px 12px; font-size: .9em; opacity: .8; }
+.afx-wc-help { margin: .35em 0 0; font-size: .85em; opacity: .75; line-height: 1.4; }
+.afx-wc-locate {
+	margin-top: .5em; padding: 0; border: 0; background: none; color: inherit;
+	text-decoration: underline; cursor: pointer; font-size: .9em;
+}
+.afx-wc-notice:empty { display: none; }
+.afx-wc-notice { margin: .5em 0 0; font-size: .9em; }
+.afx-wc-notice.is-warn { color: #8a4b00; }
+.afx-wc-summary { margin-top: .75em; padding: .75em; border: 1px solid #c3e6cb; border-radius: 4px; background: #f3fbf5; color: #1e1e1e; }
+.afx-wc-summary[hidden] { display: none; }
+.afx-wc-sum-line { margin: 0; font-weight: 600; }
+.afx-wc-check { color: #007017; }
+.afx-wc-sum-dir { margin: .25em 0 0; font-size: .9em; }
+.afx-wc-sum-dir[hidden] { display: none; }
+.afx-wc-map { height: 200px; margin-top: .75em; border-radius: 4px; }
+.afx-wc-map-hint { margin: .35em 0 0; font-size: .8em; opacity: .75; }
+
+/* Block Checkout: match the look of WooCommerce's own block inputs. */
+.afrihex-location-block { margin-top: 16px; }
+.afrihex-location-block .afx-wc { margin: 0; font-size: 1rem; }
+.afrihex-location-block .afx-wc-label { font-size: 1.125rem; font-weight: 400; margin-bottom: 12px; }
+.afrihex-location-block .afx-wc-label abbr { text-decoration: none; border: 0; }
+.afrihex-location-block .afx-wc-input {
+	min-height: 50px; padding: 0 12px; font-family: inherit; font-size: 1em; line-height: 1.375;
+	border: 1px solid hsla(0, 0%, 7%, .8); border-radius: 4px; background: #fff; color: #2b2d2f;
+	box-shadow: none; outline-offset: 0;
+}
+.afrihex-location-block .afx-wc-input:focus { outline: 1.5px solid currentColor; }
+.afrihex-location-block.has-error .afx-wc-input { border-color: #cc1818; }
+.afrihex-location-block .afx-wc-help,
+.afrihex-location-block .afx-wc-locate,
+.afrihex-location-block .afx-wc-notice,
+.afrihex-location-block .afx-wc-sum-dir { font-size: .875rem; }
+.afrihex-location-block .afx-wc-map-hint { font-size: .8125rem; }
+.afrihex-location-block .wc-block-components-validation-error p { margin: 6px 0 0; color: #cc1818; font-size: .875rem; }
