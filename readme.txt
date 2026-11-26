@@ -2,11 +2,11 @@
 Contributors: yeboah70
 Tags: ghana, address, ghanapostgps, checkout, delivery
 Requires at least: 6.4
-Tested up to: 7.1
+Tested up to: 7.2
 Requires PHP: 7.4
 WC requires at least: 8.6
 WC tested up to: 11.3
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,11 @@ Its settings and scheduled retries. Locations saved on past orders are kept. To 
 4. Settings.
 
 == Changelog ==
+
+= 0.1.1 =
+* Tested with WordPress 7.2 and WooCommerce 11.3.
+* Tested with PHP 8.6.
+* The plugin header now declares WooCommerce 11.3 compatibility, so WooCommerce no longer shows an "untested" notice.
 
 = 0.1.0 =
 * First version.

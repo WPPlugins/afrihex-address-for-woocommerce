@@ -2,12 +2,12 @@
 /**
  * Plugin Name:          AfriHex Address for WooCommerce
  * Description:          Customers enter a GhanaPostGPS code, a place or landmark directions at checkout. The address is checked with AfriHex and saved on the order with its GPS code, coordinates and rider directions.
- * Version:              0.1.0
+ * Version:              0.1.1
  * Requires at least:    6.4
  * Requires PHP:         7.4
  * Requires Plugins:     woocommerce
  * WC requires at least: 8.6
- * WC tested up to:      10.3
+ * WC tested up to:      11.3
  * Author:               AfriHex
  * Author URI:           https://afrihex.com
  * License:              GPL-2.0-or-later
@@ -20,7 +20,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AFRIHEX_ADDRESS_VERSION', '0.1.0' );
+define( 'AFRIHEX_ADDRESS_VERSION', '0.1.1' );
 define( 'AFRIHEX_ADDRESS_FILE', __FILE__ );
 define( 'AFRIHEX_ADDRESS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'AFRIHEX_ADDRESS_URL', plugin_dir_url( __FILE__ ) );
